@@ -1,0 +1,42 @@
+[
+    {
+        "user_id": "demo_sri",
+        "user_name": "Sri Sampath",
+        "whatsapp_number": "whatsapp:+919810089376",
+        "court_name": "Court A",
+        "date": {"$date": "2025-11-17T00:00:00Z"},
+        "is_regular_slot": true
+    },
+    {
+        "user_id": "demo_sri",
+        "user_name": "Sri Sampath",
+        "whatsapp_number": "whatsapp:+919810089376",
+        "court_name": "Court A",
+        "date": {"$date": "2025-11-10T00:00:00Z"},
+        "is_regular_slot": true
+    },
+    {
+        "user_id": "demo_sri",
+        "user_name": "Sri Sampath",
+        "whatsapp_number": "whatsapp:+919810089376",
+        "court_name": "Court A",
+        "date": {"$date": "2025-11-03T00:00:00Z"},
+        "is_regular_slot": true
+    },
+    {
+        "user_id": "demo_sri",
+        "user_name": "Sri Sampath",
+        "whatsapp_number": "whatsapp:+919810089376",
+        "court_name": "Court A",
+        "date": {"$date": "2025-10-27T00:00:00Z"},
+        "is_regular_slot": true
+    },
+    {
+        "user_id": "demo_sri",
+        "user_name": "Sri Sampath",
+        "whatsapp_number": "whatsapp:+919810089376",
+        "court_name": "Court A",
+        "date": {"$date": "2025-10-20T00:00:00Z"},
+        "is_regular_slot": true
+    }
+]

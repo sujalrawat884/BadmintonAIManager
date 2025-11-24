@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+twilio
+pydantic
+python-dotenv
+langgraph
+langchain
+langchain-google-genai
+langchain-core
+pandas
+motor
+pymongo
+apscheduler

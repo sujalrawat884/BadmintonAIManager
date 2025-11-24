@@ -1,0 +1,41 @@
+{
+    "_id": {
+        "$oid": "65dd62dfc0090b7d2c51ca50"
+    },
+    "booking_id": "RBC-62976949534749985",
+    "user_id": null,
+    "court_id": {
+        "$oid": "65a6cc4f11fc466eada5e100"
+    },
+    "slot_id": {
+        "$oid": "65cd8778ebf7bff26a421411"
+    },
+    "bulk_booking_id": {
+        "$oid": "65dd62dfc0090b7d2c51ca4b"
+    },
+    "booking_date": {
+        "$date": "2024-03-04T00:00:00.000Z"
+    },
+    "booking_initiated_at": {
+        "$date": "2024-02-27T04:19:43.000Z"
+    },
+    "booking_expired_at": {
+        "$date": "2024-02-27T04:21:43.000Z"
+    },
+    "is_reserved": true,
+    "stripe_session_id": null,
+    "stripe_transaction_status": null,
+    "payment_status": null,
+    "booking_type": 2,
+    "first_name": "Sri",
+    "last_name": "Sampath",
+    "email": "vathsan4u@gmail.com",
+    "__v": 0,
+    "createdAt": {
+        "$date": "2024-02-27T04:19:43.457Z"
+    },
+    "updatedAt": {
+        "$date": "2024-02-27T04:19:43.457Z"
+    },
+    "is_deleted": 0
+}
