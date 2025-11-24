@@ -1,15 +1,3 @@
-"""Seed MongoDB with historical badminton bookings and mock recurring data.
-
-Usage examples:
-    python scripts/seed_bookings.py --file C:/path/to/sample_db_booking.json --mock-weeks 8
-    python scripts/seed_bookings.py --mock-weeks 10 --skip-latest demo_lara
-
-The script expects the same environment variables as `main.py`:
-- MONGODB_URL
-- DB_NAME (defaults to "badminton_club")
-- COLLECTION_NAME (defaults to "bookings")
-"""
-
 from __future__ import annotations
 
 import argparse
