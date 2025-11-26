@@ -63,6 +63,7 @@ class BookingRecord(Booking):
 
 @tool
 def get_booking_history(lookback_days: int = 30):
+    """Return recent bookings as a CSV string for the LLM to analyze."""
     try:
         if lookback_days <= 0:
             raise ValueError("lookback_days must be a positive integer")
@@ -105,6 +106,7 @@ def get_booking_history(lookback_days: int = 30):
 
 @tool
 def send_whatsapp_reminder(phone_number: str, message_body: str):
+    """Send (or simulate) a WhatsApp reminder using Twilio credentials."""
     logger.info(f"📢 AGENT ACTION: Sending message to {phone_number}")
     
     if not TWILIO_ACCOUNT_SID or not TWILIO_AUTH_TOKEN:
