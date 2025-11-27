@@ -213,7 +213,7 @@ agent_app = workflow.compile()
 #     for player in absentees:
 #         message = (
 #             f"Hey {player['user_name']}! We missed you on the court today ({day_name}). "
-#             "Don't let the streak break! 🏸"
+#             "Don't let the streak break! 🏸""URL: https://example.com/bookings"
 #         )
 #         if reminder_tool:
 #             res = reminder_tool.invoke({
@@ -248,8 +248,11 @@ async def run_daily_streak_check():
     2. Analyze the data:
        - Identify players who usually play on {day_name}s (e.g. played last 2-3 {day_name}s).
        - Check if they have a booking for TODAY ({today_str}).
-    3. If a regular player missed today, use `send_whatsapp_reminder` to send a friendly message:
-       "Hey [Name]! We missed you on the court today! Don't let the streak break! 🏸"
+     3. If a regular player missed today, craft a UNIQUE reminder for that player (no copy/paste text):
+         - Mention their name, usual weekday/court, and the last date you saw them play (based on the data).
+         - Suggest their next opportunity or include a motivational line that fits their pattern.
+         - Include the bookings portal link once per message: https://www.royalbadmintonclub.com/book-court
+         Then call `send_whatsapp_reminder` with that personalized copy.
     
     If no one missed a streak, just output "No reminders needed."
     """
